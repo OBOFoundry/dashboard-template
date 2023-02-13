@@ -30,9 +30,9 @@ obo_score_weights:
     max_impact: 1
 ontologies:
   custom:
-    - id: cl
-    - id: pato
+    - id: cob
     - id: ro
+    - id: pato
 prefer_base: True
 profile:
   baseprofile: "https://raw.githubusercontent.com/ontodev/robot/master/robot-core/src/main/resources/report_profile.txt"
