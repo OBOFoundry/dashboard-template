@@ -1,5 +1,5 @@
-title: "OBO Dashboard: New Ontology Requests"
-description: "Dashboard for checking new ontology requests to the OBO Foundry. Under construction."
+title: "OBO Dashboard"
+description: "Dashboard for checking ontology quality. Under construction."
 obo_score_weights:
   no_base:
     impact_factor: 5
@@ -30,10 +30,14 @@ obo_score_weights:
     max_impact: 1
 ontologies:
   custom:
-    - id: uberon
+    - id: cl
+    - id: pato
+    - id: ro
 prefer_base: True
 profile:
   baseprofile: "https://raw.githubusercontent.com/ontodev/robot/master/robot-core/src/main/resources/report_profile.txt"
+  custom:
+    - "WARN\tfile:./sparql/missing_xrefs.sparql"
 report_truncation_limit: 600
 redownload_after_hours: 0
 environment:
