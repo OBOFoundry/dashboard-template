@@ -1,0 +1,99 @@
+metrics:
+  abox_axiom_count: 0
+  abox_axiom_count_incl: 0
+  annotation_property_count: 1
+  annotation_property_count_incl: 1
+  axiom_count: 5
+  axiom_count_incl: 5
+  class_count: 2
+  class_count_incl: 2
+  consistent: true
+  dataproperty_count: 0
+  dataproperty_count_incl: 0
+  datatypes_count: 1
+  datatypes_count_incl: 1
+  dt_builtin_count: 1
+  dt_builtin_count_incl: 1
+  dt_notbuiltin_count: 0
+  dt_notbuiltin_count_incl: 0
+  expressivity: "AL"
+  expressivity_incl: "AL"
+  individual_count: 0
+  individual_count_incl: 0
+  logical_axiom_count: 1
+  logical_axiom_count_incl: 1
+  obj_property_count: 1
+  obj_property_count_incl: 1
+  ontology_anno_count: 0
+  ontology_iri: "http://www.semanticweb.org/matentzn/ontologies/2021/10/untitled-ontology-497"
+  ontology_version_iri: "no.iri"
+  owl2: true
+  owl2_dl: true
+  owl2_el: true
+  owl2_ql: true
+  owl2_rl: false
+  rbox_axiom_count: 0
+  rbox_axiom_count_incl: 0
+  rdfs: false
+  rule_count: 0
+  rule_count_incl: 0
+  signature_entity_count: 5
+  signature_entity_count_incl: 5
+  syntax: "RDF/XML Syntax"
+  tbox_axiom_count: 1
+  tbox_axiom_count_incl: 1
+  tboxrbox_axiom_count: 1
+  tboxrbox_axiom_count_incl: 1
+  unsatisfiable_class_count: 0
+  axiom_types:
+  - "AnnotationAssertion"
+  - "EquivalentClasses"
+  - "Declaration"
+  axiom_types_incl:
+  - "AnnotationAssertion"
+  - "EquivalentClasses"
+  - "Declaration"
+  constructs:
+  - "AL"
+  constructs_incl:
+  - "AL"
+  valid_imports: []
+  valid_imports_incl: []
+  axiom_type_count:
+    AnnotationAssertion: 2
+    EquivalentClasses: 1
+    Declaration: 2
+  axiom_type_count_incl:
+    AnnotationAssertion: 2
+    EquivalentClasses: 1
+    Declaration: 2
+  class_expression_count:
+    Class: 3
+    ObjectSomeValuesFrom: 1
+  class_expression_count_incl:
+    Class: 3
+    ObjectSomeValuesFrom: 1
+  curie_map:
+    owl: "http://www.w3.org/2002/07/owl#"
+    rdf: "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    rdfs: "http://www.w3.org/2000/01/rdf-schema#"
+    obo: "http://purl.obolibrary.org/obo/"
+  namespace_axiom_count:
+    owl: 1
+    rdfs: 2
+    obo: 4
+  namespace_axiom_count_incl:
+    owl: 1
+    rdfs: 2
+    obo: 4
+  namespace_entity_count:
+    owl: 1
+    rdf: 1
+    rdfs: 1
+    obo: 2
+  namespace_entity_count_incl:
+    owl: 1
+    rdf: 1
+    rdfs: 1
+    obo: 2
+  owl2dl_profile_violation: {}
