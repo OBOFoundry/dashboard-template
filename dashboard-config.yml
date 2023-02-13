@@ -30,9 +30,8 @@ obo_score_weights:
     max_impact: 1
 ontologies:
   custom:
-    - id: cob
-    - id: ro
-    - id: pato
+    - id: tmp
+      mirror_from: "https://raw.githubusercontent.com/monarch-ebi-dev/robot_tests/master/custom-dashboard.owl"
 prefer_base: True
 profile:
   baseprofile: "https://raw.githubusercontent.com/ontodev/robot/master/robot-core/src/main/resources/report_profile.txt"
