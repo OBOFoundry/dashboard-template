@@ -7,7 +7,8 @@ on:
       - 'dashboard-config.yml'
       - 'Makefile'
   schedule:
-    - cron: "0 13 * * 1"
+    # This will run at 05:48 on first day of the month in every month from January through December.
+    - cron: "48 5 1 1-12 *"
 jobs:
   dashboard:
     runs-on: ubuntu-latest
@@ -16,7 +17,7 @@ jobs:
       max-parallel: 1
     steps:
       - name: Checkout main branch
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
       - name: work around permission issue
         run: git config --global --add safe.directory "$GITHUB_WORKSPACE"
       - name: Clean directories
@@ -28,7 +29,7 @@ jobs:
       - name: Copy results
         run: cp -r /tools/OBO-Dashboard/dashboard/* dashboard/ &&  cp -r /tools/OBO-Dashboard/build/ontologies/* ontologies/
       - name: Create Pull Request
-        uses: peter-evans/create-pull-request@v3
+        uses: peter-evans/create-pull-request@v4
         with:
           commit-message: Update dashboard run
           title: 'Update dashboard run'
