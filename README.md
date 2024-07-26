@@ -1,3 +1,7 @@
+# How to use this template
+
+Please refer to [this page](https://oboacademy.github.io/obook/howto/deploy-custom-obo-dashboard/) on the OBO Academy website.
+
 # Template repository to create Custom OBO Foundry Dashboard
 
 Custom configuration at `dashboard-config.yml`
