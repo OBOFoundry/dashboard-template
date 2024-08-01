@@ -45,3 +45,17 @@ dashboard:
 ```
 
 The easiest way to update your repository is to do so manually. Please update the ODK version to have the latest changes on the OBO Dashboard.
+
+## If the GitHub Action is failing...
+
+1. We experienced a failure on the GitHub Action in the step to create the pull request with the dashboard changes. To fix the issue, please update the `peter-evans/create-pull-request` version to `v6`.
+
+```yaml
+ - name: Create Pull Request
+   uses: peter-evans/create-pull-request@v6
+   with:
+    commit-message: Update dashboard run
+    title: 'Update dashboard run'
+    body: |
+        Updates the Custom OBO Dashboard
+```
