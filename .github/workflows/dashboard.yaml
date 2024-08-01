@@ -29,7 +29,7 @@ jobs:
       - name: Copy results
         run: cp -r /tools/OBO-Dashboard/dashboard/* dashboard/ &&  cp -r /tools/OBO-Dashboard/build/ontologies/* ontologies/
       - name: Create Pull Request
-        uses: peter-evans/create-pull-request@v4
+        uses: peter-evans/create-pull-request@v6
         with:
           commit-message: Update dashboard run
           title: 'Update dashboard run'
