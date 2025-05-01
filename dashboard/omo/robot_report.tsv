@@ -1,0 +1,20 @@
+Level	Rule Name	Subject	Property	Value
+WARN	annotation_whitespace	OMO:0001002	IAO:0000116	This obsolesence reason should be used conservatively. For example: Obsoleting class that describes a breed of cow based on a record in an existing database, that was later retracted as faulty (breed does not exist). Do not use this term to obsolete a historic concept (that was once valid, but not anymore). @en
+WARN	missing_xrefs	OMO:0001000	oboInOwl:hasDbXref	
+WARN	missing_xrefs	OMO:0001001	oboInOwl:hasDbXref	
+WARN	missing_xrefs	OMO:0001002	oboInOwl:hasDbXref	
+WARN	missing_xrefs	OMO:0002000	oboInOwl:hasDbXref	
+WARN	missing_xrefs	OMO:0003000	oboInOwl:hasDbXref	
+WARN	missing_xrefs	OMO:0003001	oboInOwl:hasDbXref	
+WARN	missing_xrefs	OMO:0003002	oboInOwl:hasDbXref	
+WARN	missing_xrefs	OMO:0003003	oboInOwl:hasDbXref	
+WARN	missing_xrefs	OMO:0003004	oboInOwl:hasDbXref	
+WARN	missing_xrefs	OMO:0003005	oboInOwl:hasDbXref	
+WARN	missing_xrefs	OMO:0003006	oboInOwl:hasDbXref	
+WARN	missing_xrefs	OMO:0003007	oboInOwl:hasDbXref	
+WARN	missing_xrefs	OMO:0003008	oboInOwl:hasDbXref	
+WARN	missing_xrefs	OMO:0003009	oboInOwl:hasDbXref	
+WARN	missing_xrefs	OMO:0003010	oboInOwl:hasDbXref	
+WARN	missing_xrefs	OMO:0003011	oboInOwl:hasDbXref	
+WARN	missing_xrefs	OMO:0003012	oboInOwl:hasDbXref	
+WARN	missing_xrefs	OMO:0004000	oboInOwl:hasDbXref	
