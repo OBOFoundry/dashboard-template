@@ -12,7 +12,7 @@ on:
 jobs:
   dashboard:
     runs-on: ubuntu-latest
-    container: obolibrary/odkfull:latest
+    container: anitacaron/obo-dashboard:v0.1
     strategy:
       max-parallel: 1
     steps:
