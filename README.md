@@ -35,16 +35,16 @@ ontologies:
 
 # How to update your version of this template
 
-We don't plan to make big changes on this template anymore. The only important change we did was to update the ODK version used in the [GitHub Action](https://github.com/OBOFoundry/dashboard-template/blob/ddde5f42bb2638ed3b07e781923a2a7e3285cc31/.github/workflows/dashboard.yaml#L13-L15
+We don't plan to make big changes on this template anymore. The only important change we did was to update the Docker image used in the [GitHub Action](https://github.com/OBOFoundry/dashboard-template/blob/ddde5f42bb2638ed3b07e781923a2a7e3285cc31/.github/workflows/dashboard.yaml#L13-L15
 ) that updates the dashboard.
 
 ```yaml
 dashboard:
     runs-on: ubuntu-latest
-    container: obolibrary/odkfull:latest
+    container: anitacaron/obo-dashboard:latest
 ```
 
-The easiest way to update your repository is to do so manually. Please update the ODK version to have the latest changes on the OBO Dashboard.
+The easiest way to update your repository is to do so manually. Please update the Docker image to have the latest changes on the OBO Dashboard.
 
 ## If the GitHub Action is failing...
 
