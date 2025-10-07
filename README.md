@@ -35,8 +35,7 @@ ontologies:
 
 # How to update your version of this template
 
-We don't plan to make big changes on this template anymore. The only important change we did was to update the Docker image used in the [GitHub Action](https://github.com/OBOFoundry/dashboard-template/blob/ddde5f42bb2638ed3b07e781923a2a7e3285cc31/.github/workflows/dashboard.yaml#L13-L15
-) that updates the dashboard.
+We don't plan to make big changes on this template anymore. The only important change we did was to update the Docker image used in the [GitHub Action](https://github.com/OBOFoundry/dashboard-template/blob/3082ab45ffa90f8fb3c444ebe3da89ad963aa9e1/.github/workflows/dashboard.yaml#L13-L15) that updates the dashboard.
 
 ```yaml
 dashboard:
