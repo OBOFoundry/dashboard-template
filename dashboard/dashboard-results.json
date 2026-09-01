@@ -1,0 +1,147 @@
+{
+  "ontologies": [
+    {
+      "base_generated": true,
+      "base_prefixes": [
+        "OMO",
+        "OMOALT",
+        "OMO"
+      ],
+      "changed": true,
+      "date": "2026-09-01T10:29:38.233305",
+      "metrics": {
+        "Axioms: Breakdown of axiom types": {
+          "AnnotationAssertion": 117,
+          "ClassAssertion": 2,
+          "Declaration": 20,
+          "SubAnnotationPropertyOf": 13
+        },
+        "Axioms: Number of axioms": 152,
+        "Entities: % of entities reused": 52.38,
+        "Entities: Number of annotation properties": 37,
+        "Entities: Number of classes": 1,
+        "Entities: Number of data properties": 0,
+        "Entities: Number of individuals": 2,
+        "Entities: Number of object properties": 0,
+        "Entities: Number of unsatisfiable classes": 0,
+        "Info: Breakdown of OWL class expressions used": {
+          "Class": 2
+        },
+        "Info: Does the ontology fall under OWL 2 DL?": false,
+        "Info: Experimental OBO score": {
+          "_dashboard": 0.911,
+          "_formula": "(1*impact+1*dashboard)/2",
+          "_impact": 0.0,
+          "_impact_external": 0.25,
+          "_reuse": 0.524,
+          "oboscore": 0.456
+        },
+        "Info: How many externally documented uses?": 1,
+        "Info: How many ontologies use it?": 0,
+        "Info: Logical consistency": true,
+        "Info: Syntax": "RDF/XML Syntax",
+        "Info: Usage of namespaces in axioms": {
+          "IAO": 61,
+          "OMO": 35,
+          "dc": 32,
+          "dc11": 4,
+          "oboInOwl": 15,
+          "rdfs": 20
+        },
+        "Info: Which ontologies use it?": []
+      },
+      "mirror_from": "http://purl.obolibrary.org/obo/omo.owl",
+      "namespace": "omo",
+      "results": {
+        "FP01 Open": {
+          "status": "PASS"
+        },
+        "FP02 Common Format": {
+          "status": "PASS"
+        },
+        "FP03 URIs": {
+          "status": "PASS"
+        },
+        "FP04 Versioning": {
+          "status": "PASS"
+        },
+        "FP05 Scope": {
+          "status": "PASS"
+        },
+        "FP06 Textual Definitions": {
+          "status": "PASS"
+        },
+        "FP07 Relations": {
+          "status": "PASS"
+        },
+        "FP08 Documented": {
+          "status": "PASS"
+        },
+        "FP09 Plurality of Users": {
+          "status": "PASS"
+        },
+        "FP11 Locus of Authority": {
+          "status": "PASS"
+        },
+        "FP12 Naming Conventions": {
+          "status": "PASS"
+        },
+        "FP16 Maintenance": {
+          "status": "PASS"
+        },
+        "FP20 Responsiveness": {
+          "status": "PASS"
+        },
+        "ROBOT Report": {
+          "comment": "21 warnings, 0 info messages.",
+          "file": "robot_report",
+          "results": {
+            "ERROR": 0,
+            "INFO": 0,
+            "WARN": 21
+          },
+          "status": "WARN"
+        }
+      },
+      "sha256_hash": "63f93cd3a5ab1f54e397455ea25d5a9fd813b568d3fe5e327fe520b142488c2f",
+      "summary": {
+        "comment": "1 warnings",
+        "status": "WARN",
+        "summary_count": {
+          "ERROR": 0,
+          "INFO": 0,
+          "WARN": 1
+        }
+      },
+      "version": "http://purl.obolibrary.org/obo/omo/releases/2026-03-16/omo.owl"
+    }
+  ],
+  "oboscore": {
+    "dashboard_score_weights": {
+      "no_base": 5,
+      "overall_error": 5,
+      "overall_warning": 0.5,
+      "overall_info": 0.1,
+      "report_errors": 0.05,
+      "report_warning": 0.01,
+      "report_info": 0.005,
+      "dashboard": 1,
+      "impact": 1,
+      "reuse": 1,
+      "impact_external": 3
+    },
+    "dashboard_score_max_impact": {
+      "no_base": 5,
+      "overall_error": 20,
+      "overall_warning": 10,
+      "overall_info": 5,
+      "report_errors": 10,
+      "report_warning": 5,
+      "report_info": 3,
+      "dashboard": 1,
+      "impact": 1,
+      "reuse": 1,
+      "impact_external": 3
+    }
+  }
+}
